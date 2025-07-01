@@ -1,0 +1,5 @@
+streamlit
+faiss-cpu
+openai
+pickle5
+numpy
