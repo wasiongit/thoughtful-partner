@@ -7,10 +7,8 @@ from io import StringIO
 from openai import OpenAI
 import os
 
-OPENAI_API_KEY='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'
-
 # Initialize OpenAI client
-client = OpenAI(api_key=OPENAI_API_KEY)
+client = OpenAI()
 
 # Config
 EMBEDDING_MODEL = "text-embedding-3-small"
